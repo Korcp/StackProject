@@ -6,17 +6,25 @@
 <img width="400" alt="스택배열 결과" src="https://user-images.githubusercontent.com/48702154/227792483-badd8051-bcc8-484d-b45f-25c3dbccbc5a.png">
 
 using System;
+
 using System.Collections;
+
 using System.Collections.Generic;
+
 using System.Linq;
+
 using System.Security;
+
 using System.Text;
+
 using System.Threading.Tasks;
 
 namespace Stack1
 {
-    internal class Program
-    {
+ 
+ internal class Program
+ 
+  {
     
         static void Main(string[] args)
         
