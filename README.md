@@ -12,6 +12,7 @@ using System.Linq;
 using System.Security;
 using System.Text;
 using System.Threading.Tasks;
+
 namespace Stack1
 {
     internal class Program
