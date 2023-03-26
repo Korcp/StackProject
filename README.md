@@ -53,16 +53,22 @@ namespace Stack1
 <img width="398" alt="링크드 리스트 스택" src="https://user-images.githubusercontent.com/48702154/227792435-1bee519c-af6f-4440-ac60-fc2d87042d39.png">
 
 using System;
+
 using System.Collections.Generic;
+
 using System.Linq;
+
 using System.Security.Permissions;
 using System.Text;
+
 using System.Threading;
+
 using System.Threading.Tasks;
 
 namespace ArrayEx1
 {
-    internal class Program
+   
+   internal class Program
     {
 
         class Node  //노드 생성
