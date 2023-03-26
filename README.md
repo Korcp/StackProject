@@ -1,35 +1,37 @@
 # StackProject
 
 
+#스택배열 
+
 <img width="400" alt="스택배열 결과" src="https://user-images.githubusercontent.com/48702154/227792483-badd8051-bcc8-484d-b45f-25c3dbccbc5a.png">
 
-#스택 배열
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security;
 using System.Text;
-using System.Threading.Tasks;!
-
+using System.Threading.Tasks;
 namespace Stack1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int[] arr = { 1, 2, 3, 4, 5 }; //배열생성
-            Stack stack = new Stack(); //스택 객체 만듬
+            int[] arr = { 1, 2, 3, 4, 5 };
+            Stack stack = new Stack();
             for (int i = 0; i < arr.Length; i++)
             {
-                stack.Push(arr[i]);               //배열을 스택안에다 push
+                stack.Push(arr[i]);
             }
-            Console.WriteLine("Peek:"+stack.Peek()+"\n"); //스택의 맨위에 출력
+            Console.WriteLine("Peek:"+stack.Peek()+"\n");
             for (int i = 0; i < arr.Length; i++) 
-            { Console.WriteLine("pop :"+stack.Pop()); } //배열의 길이까지 맨위에 스택부터 pop하여 stack값 출력및삭제
+            { Console.WriteLine("pop :"+stack.Pop()); }
     }
     }
 }
+
+
 
 #링크드 리스트 배열
 
