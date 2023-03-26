@@ -17,18 +17,24 @@ namespace Stack1
 {
     internal class Program
     {
+    
         static void Main(string[] args)
+        
         {
             int[] arr = { 1, 2, 3, 4, 5 }; //배열 생성
+            
             Stack stack = new Stack();      // Stack객체 사용
-            for (int i = 0; i < arr.Length; i++) //반복문을통해서 stack에 배열을 push하여넣음
-            {
+            
+            for (int i = 0; i < arr.Length; i++){//반복문을통해서 stack에 배열을 push하여넣음
                 stack.Push(arr[i]);
             }
+            
             Console.WriteLine("Peek:"+stack.Peek()+"\n"); //스택의 꼭대기 출력
-            for (int i = 0; i < arr.Length; i++) 
-            { Console.WriteLine("pop :"+stack.Pop()); } //스택의 내용을 하나씩 삭제하면서 그 삭제되는 값을 
-    }
+            
+            for (int i = 0; i < arr.Length; i++) {
+            Console.WriteLine("pop :"+stack.Pop()); 
+            } //스택의 내용을 하나씩 삭제하면서 그 삭제되는 값을 
+           }
     }
 }
 
