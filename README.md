@@ -1,4 +1,8 @@
 # StackProject
+
+
+<img width="400" alt="스택배열 결과" src="https://user-images.githubusercontent.com/48702154/227792483-badd8051-bcc8-484d-b45f-25c3dbccbc5a.png">
+
 #스택 배열
 using System;
 using System.Collections;
@@ -8,7 +12,6 @@ using System.Security;
 using System.Text;
 using System.Threading.Tasks;!
 
-[Uploading 스택배열 결과.png…]()
 namespace Stack1
 {
     internal class Program
@@ -29,6 +32,7 @@ namespace Stack1
 }
 
 #링크드 리스트 배열
+
 <img width="398" alt="링크드 리스트 스택" src="https://user-images.githubusercontent.com/48702154/227792435-1bee519c-af6f-4440-ac60-fc2d87042d39.png">
 
 using System;
